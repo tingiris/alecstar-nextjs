@@ -1,113 +1,76 @@
 import Image from 'next/image'
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
+    <div className="max-w-4xl mx-auto px-4">
+      <h1 className="text-3xl font-bold mb-8 text-center">Forward</h1>
+      
+      <div className="prose dark:prose-invert max-w-none space-y-6">
+        <p>
+          I have to say that when they write the book about Central New York Rock Bands,
+          Alecstar would have to be in chapter one and not just because they start with
+          the letter "A"! To hold up musically today after all these years is an
+          accomplishment in itself. And I'm also talking about the guys themselves! With
+          all the crazy partying in the late 70's and the early 80's, these guys are still
+          rockin'.
         </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+
+        <p>
+          The first Turning Stone Casino concert in May 2003 was classic Alecstar. It was like seeing the
+          group in a time-warp from the Rustic Inn in 1979, or at Hot Rocks in 1981. Forget
+          Dick Clark, we all know George Mahoney drinks daily from the Fountain of Youth
+          and Jack, Dick, Harry and Tim have all remained rockers in the truest sense. The
+          reunions we have witnessed are not about a bunch of retreads dusting off their gear
+          for a trip down memory lane. They are Alecstar show's that can stand up against
+          any show they did from back in the 80's.
+        </p>
+
+        <p>
+          When the talk around here turns to local bands past and present,
+          along with their impact and skill, I always bring up the wild era of the late 70's and early 80's bands.
+          How the musicianship and songwriting were key factors. The look and the
+          presentation were also two prime ingredients to a bands "identity". While
+          sometimes that is either lost or lacking today, we have memories of bands like Alecstar to remind us of
+          the golden age of local rock. They represent Central New York's finest, and they can stand up against any group of their era... in any city
+          in the country! I was a fan first, and not long after became a friend. I have to
+          say that these guys have put their stamp on the local music scene like no other
+          band. They could out rock the others and have a crazy time doing it! Plus the
+          dual lead guitar assault, that was a trademark of Alecstar, always wowed the
+          crowds. (Harry & Dick... you guys rock!)
+        </p>
+
+        <p>
+          I am looking forward to not only the Alecstar music that's coming out of the
+          archives for their second CD, but any new tunes and any future reunions as well. Not
+          only will we get to hear all those favorites again, we can watch them on the DVD that has footage that goes back to 1980! Damn, it's
+          like stepping into a time machine when I start thinking about these guys! And
+          don't forget their tunes that appeared on the WOUR 'Rock of Central New York'
+          albums and CD's. 'Hold On To Rock & Roll', 'Give Me The Time To
+          Change' and 'So Long To Hollywood' were all highlights of the local music that we compiled.
+        </p>
+
+        <p>
+          Till we rock again. In the words of Alecstar... "Hold On To Rock and Roll"… I
+          heard it on the radio - WOUR!
+        </p>
+
+        <div className="text-right mt-8 space-y-1">
+          <p>The Doctor, Jerry Kraus</p>
+          <p>WOUR 96.9 Announcer</p>
+          <p>1978 - 2007</p>
+        </div>
+
+        <div className="mt-12 flex flex-col items-center space-y-4">
+          <Image
+            src="/images/gallery/docozzy81.jpg"
+            alt="Jerry Kraus & Ozzy Osbourne 1981"
+            width={450}
+            height={444}
+            className="rounded-lg"
+          />
+          <p className="text-center text-lg">Jerry Kraus & Ozzy Osbourne 1981</p>
         </div>
       </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </div>
   )
 }
