@@ -5,9 +5,6 @@ export default function ContactPage() {
       <div className="prose dark:prose-invert">
         <div className="space-y-4">
           <p className="text-lg">
-            <span className="font-semibold">Contact:</span> Mitch Tingiris
-          </p>
-          <p className="text-lg">
             <span className="font-semibold">Email:</span>{' '}
             <a 
               href="mailto:alecstar@yahoo.com"

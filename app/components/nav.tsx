@@ -26,7 +26,7 @@ const navItems = {
     name: 'Contact',
   },
   'https://pub10.bravenet.com/forum/static/show.php?usernum=829203309&frmid=284&msgid=0': {
-    name: 'forum',
+    name: 'Message Board',
   },
 }
 

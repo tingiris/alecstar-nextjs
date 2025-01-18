@@ -15,7 +15,7 @@ const galleryImages = galleryData.images.map(image => ({
 export default function GalleryPage() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-8">Gallery</h1>
+      <h1 className="text-3xl font-bold mb-8">Photo Gallery</h1>
       <Gallery images={galleryImages} />
     </div>
   )
