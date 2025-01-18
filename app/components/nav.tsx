@@ -2,60 +2,50 @@ import Link from 'next/link'
 
 const navItems = {
   '/': {
-    name: 'home',
+    name: 'Home',
   },
-  '/blog': {
-    name: 'blog',
-  },
-  '/blog/history': {
-    name: 'history',
+  '/history': {
+    name: 'History',
   },
   '/gallery': {
-    name: 'gallery',
+    name: 'Photo Gallery',
   },
   '/discography': {
-    name: 'discography',
-  },
-  '/thanks': {
-    name: 'thanks',
+    name: 'Discography',
   },
   '/merchandise': {
-    name: 'merch',
+    name: 'DVD',
+  },
+  '/reunions': {
+    name: 'Reunions',
+  },
+  '/thanks': {
+    name: 'Special Thanks',
   },
   '/contact': {
-    name: 'contact',
-  },
-  '/links': {
-    name: 'links',
+    name: 'Contact',
   },
   'https://pub10.bravenet.com/forum/static/show.php?usernum=829203309&frmid=284&msgid=0': {
     name: 'forum',
   },
 }
 
-export function Navbar() {
+export function Nav() {
   return (
-    <aside className="-ml-[8px] mb-16 tracking-tight">
-      <div className="lg:sticky lg:top-20">
-        <nav
-          className="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
-          id="nav"
-        >
-          <div className="flex flex-row space-x-0 pr-10">
-            {Object.entries(navItems).map(([path, { name }]) => {
-              return (
-                <Link
-                  key={path}
-                  href={path}
-                  className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1"
-                >
-                  {name}
-                </Link>
-              )
-            })}
-          </div>
-        </nav>
+    <nav className="fixed left-0 top-0 h-full w-64 p-4 bg-white dark:bg-black border-r">
+      <div className="flex flex-col space-y-2">
+        {Object.entries(navItems).map(([path, { name }]) => {
+          return (
+            <Link
+              key={path}
+              href={path}
+              className="text-lg hover:text-neutral-800 dark:hover:text-neutral-200 transition-colors capitalize px-2 py-1"
+            >
+              {name}
+            </Link>
+          )
+        })}
       </div>
-    </aside>
+    </nav>
   )
 }

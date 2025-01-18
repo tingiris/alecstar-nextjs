@@ -16,15 +16,6 @@ export default function ContactPage() {
               alecstar@yahoo.com
             </a>
           </p>
-          <div className="text-lg mt-6">
-            <span className="font-semibold">Mailing Address:</span>
-            <address className="not-italic mt-2">
-              Alecstar<br />
-              c/o Mitch Tingiris<br />
-              PO Box 2751<br />
-              Syracuse, NY 13220
-            </address>
-          </div>
         </div>
       </div>
     </div>

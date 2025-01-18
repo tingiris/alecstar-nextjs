@@ -30,9 +30,10 @@ export function Gallery({ images }: GalleryProps) {
 
   return (
     <div className="w-full space-y-8">
+        <h3 className="text-2xl font-semibold mb-4">Click on picture for full view</h3>
       {Object.entries(groupedImages).map(([groupName, groupImages]) => (
         <div key={groupName}>
-          <h2 className="text-2xl font-semibold mb-4">{groupName}</h2>
+          
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {groupImages.map((image, index) => (
               <div

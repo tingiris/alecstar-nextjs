@@ -11,7 +11,7 @@ const product = {
 export default function MerchandisePage() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-16">
-      <h1 className="text-3xl font-bold mb-8">Merchandise</h1>
+      <h1 className="text-3xl font-bold mb-8">DVD</h1>
       <div className="flex justify-center">
         <ProductCard {...product} />
       </div>
