@@ -2,7 +2,7 @@ import { ProductCard } from '../components/ProductCard'
 
 const product = {
   title: "Alecstar DVD",
-  description: "Contains 24 live performances spanning from the 1980s through the 1998 Vernon Downs show and 2003 Turning Stone reunion. Features both original Alecstar songs and classic cover performances.",
+  description: "Contains 24 live performances spanning from the 1980s through the 1998 Vernon Downs show and the 2003 Turning Stone reunion. Features both original Alecstar songs and classic cover performances.",
   price: "$8.00",
   imageUrl: "/images/dvd-cover-for-print.jpg",
   purchaseUrl: "https://www.ebay.com/itm/265113641867"
