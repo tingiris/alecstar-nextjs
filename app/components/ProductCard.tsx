@@ -12,7 +12,7 @@ interface ProductCardProps {
 export function ProductCard({ title, description, price, imageUrl, purchaseUrl }: ProductCardProps) {
   return (
     <div className="border rounded-lg overflow-hidden shadow-lg bg-white dark:bg-neutral-800">
-      <div className="relative h-[300px]">
+      <div className="relative h-[600px]">
         <Image
           src={imageUrl}
           alt={title}
@@ -22,7 +22,7 @@ export function ProductCard({ title, description, price, imageUrl, purchaseUrl }
       </div>
       <div className="p-6">
         <h3 className="text-xl font-bold mb-2">{title}</h3>
-        <p className="text-gray-600 dark:text-gray-300 mb-4">{description}</p>
+        <p className="font-semibold dark:text-gray-300 mb-4">{description}</p>
         <div className="flex justify-between items-center">
           <span className="text-xl font-bold">{price}</span>
           <Link
